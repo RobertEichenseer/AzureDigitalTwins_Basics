@@ -1,0 +1,17 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:RobEich:AdditiveManufacturing:ConveyorBelt;1",
+    "@type": "Interface",
+    "displayName": "ConveyorBelt",
+    "extends": [
+        "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1"
+    ],
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "avgSpeed",
+            "displayName": "Avg Speed",
+            "schema": "float"
+        }
+    ]
+}

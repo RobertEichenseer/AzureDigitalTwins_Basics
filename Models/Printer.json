@@ -1,0 +1,17 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:RobEich:AdditiveManufacturing:Printer;1",
+  "@type": "Interface",
+  "displayName": "3D Printer",
+  "extends": [
+    "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1"
+  ],
+  "contents":[
+    {
+      "@type": "Property",
+      "name": "powderConsumption",
+      "displayName": "Powder Consumption",
+      "schema": "float"
+    }
+  ]
+}

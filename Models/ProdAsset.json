@@ -1,0 +1,26 @@
+{
+  "@context": "dtmi:dtdl:context;2",
+  "@id": "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1",
+  "@type": "Interface",
+  "displayName": "ProdAsset",
+  "contents": [
+    {
+      "@type": "Telemetry",
+      "name": "currentEnergyConsumption",
+      "displayName": "Current Energy Consumption",
+      "schema": "double"
+    },
+    {
+      "@type": "Property",
+      "name": "inventoryId",
+      "displayName": "Inventory Id",
+      "schema": "string"
+    },
+    {
+      "@type": "Property",
+      "name": "engergyConsumptionLast5Minutes",
+      "displayName": "Energy Consumption 5 Minutes",
+      "schema": "string"
+    }
+  ]
+}

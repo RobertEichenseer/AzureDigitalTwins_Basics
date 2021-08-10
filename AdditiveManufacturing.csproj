@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.DigitalTwins.Core" Version="1.2.2" />
+    <PackageReference Include="Azure.Identity" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="./Models/ProdAsset.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="./Models/ConveyorBelt.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="./Models/Printer.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="./Models/ProductionLine.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="./Models/ProductionOrder.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="./Models/Robot.json" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

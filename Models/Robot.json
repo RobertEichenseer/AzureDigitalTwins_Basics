@@ -1,0 +1,16 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:RobEich:AdditiveManufacturing:Robot;1",
+    "@type": "Interface",
+    "displayName": "Production Robot",
+    "extends": [
+        "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1"
+    ],
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "robotType",
+            "schema": "string"
+        }
+    ]
+}

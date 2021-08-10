@@ -1,0 +1,31 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:RobEich:AdditiveManufacturing:ProductionLine;1",
+    "@type": "Interface",
+    "displayName": "Production Line",
+    "extends": [
+        "dtmi:RobEich:AdditiveManufacturing:ProdAsset;1"
+    ],
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "location",
+            "schema": "string"
+        },
+        { 
+            "@type": "Relationship",
+            "name": "mountedConveyerBelt",
+            "target": "dtmi:RobEich:AdditiveManufacturing:ConveyorBelt;1"            
+        },
+        {
+            "@type": "Relationship",
+            "name": "mountedRobot",
+            "target": "dtmi:RobEich:AdditiveManufacturing:Robot;1"
+        },
+        {
+            "@type": "Relationship",
+            "name": "mountedPrinter",
+            "target": "dtmi:RobEich:AdditiveManufacturing:Printer;1"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "@context": "dtmi:dtdl:context;2",
+    "@id": "dtmi:RobEich:AdditiveManufacturing:ProductionOrder;1",
+    "@type": "Interface",
+    "displayName": "Production Order",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "orderId",
+            "schema": "string"
+        },
+        {
+            "@type": "Relationship", 
+            "name": "assignedProductionLine",
+            "target": "dtmi:RobEich:AdditiveManufacturing:ProductionLine;1",
+            "properties": [
+                {
+                    "name": "productionManager",
+                    "@type": "Property",
+                    "schema": "string"
+                },
+                {
+                    "name": "inProduction",
+                    "@type": "Property",
+                    "schema": "boolean"
+                }
+            ]
+        }
+    ]
+}
