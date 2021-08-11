@@ -2,7 +2,7 @@
 ## Companion Source Code - windows.developer 8.2021 / 9.2021
 
 ### Purpose
-A simple c# application to demonstrate basic Azure Digital Twins functionality. Companion material for an article published in [windows.developer magacine](https://entwickler.de/magazine-ebooks/windows-developer/windows-developer-82021)
+A simple c# application to demonstrate basic Azure Digital Twins functionality. Companion material for an article published in [windows.developer magazine](https://entwickler.de/magazine-ebooks/windows-developer/windows-developer-82021)
 
 
 ### Content
